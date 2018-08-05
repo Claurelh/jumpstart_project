@@ -22,6 +22,10 @@ img {
 }
 
 /* Navigation Bar Start */
+nav .navbar {
+  position: fixed;
+}
+
 .navbar {
   font-size: 1.1rem;
   font-weight: 600;
@@ -53,7 +57,7 @@ img {
 /* Jumbotron Bike Section Start */
 .jumbotron {
   height: 44rem;
-  padding-top: 10rem;
+  padding-top: 14rem;
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -177,6 +181,10 @@ img {
 .deFrost .by {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.deFrost p {
+  font-family: "Open Sans";
 }
 
 .deFrost .doc {
